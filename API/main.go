@@ -14,6 +14,9 @@ import (
 func SetupRoutes(app *fiber.App) {
 	app.Get("/:url", routes.ResolveURL)
 	app.Post("/api/v1", routes.ShortenURL)
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.SendString("API RUNNING SUCCESSFULLY!")
+	})
 }
 
 func main() {
