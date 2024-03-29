@@ -36,5 +36,6 @@ This would install all the dependencies that are required by the project.
 ```bash
   docker-compose up -d    
 ```
+![image](https://github.com/kiyoshi-87/url-shortner-go/assets/90674598/84d8235c-e5b8-464e-b1f1-c263ad0f7334)
 
     
