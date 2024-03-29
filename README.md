@@ -34,7 +34,7 @@ This would install all the dependencies that are required by the project.
 6. After that everything is set and we can start the application using docker compose:
 
 ```bash
-  docker-compose up -d      // -d for detached mode
+  docker-compose up -d    
 ```
 
     
